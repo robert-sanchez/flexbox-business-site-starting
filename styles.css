@@ -2,6 +2,7 @@
 
 body {
     text-align: center;
+    font-family: 'Anton', sans-serif;
     font-size: 16px;
 }
 
@@ -24,3 +25,29 @@ nav a {
     text-decoration: none;
 }
 
+/* Main Section Styles */
+
+/* About Section Styles */
+
+#about {
+    background-image: url("https://darkknightnews.com/wp-content/uploads/2018/11/Gotham.jpg");
+    display: flex;
+    height: 400px;
+}
+
+.content {
+    background-color: white;
+    margin: auto;
+    opacity: 0.7;
+    padding: 0.75em;
+    width: 100%;
+}
+
+.content h2 {
+    font-size: 1.75em;
+}
+
+.content h4 {
+    font-size: 1.25em;
+    margin-top: 0.25em;
+}
