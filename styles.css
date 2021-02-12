@@ -51,3 +51,30 @@ nav a {
     font-size: 1.25em;
     margin-top: 0.25em;
 }
+
+/* Crew Section Styles */
+
+#crew {
+    margin-top: 15px;
+    width: 100%;
+}
+
+#crew h3 {
+    font-size: 1.25em;
+}
+
+.crew-member-card {
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    justify-content: space-around;
+    margin: 0.25em auto;
+    width: 75%;
+}
+
+.crew-portrait {
+    border-radius: 25px;
+    height: 80%;
+    margin: 0 auto;
+    width: 80%;
+}
