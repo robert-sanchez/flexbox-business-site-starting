@@ -73,8 +73,38 @@ nav a {
 }
 
 .crew-portrait {
-    border-radius: 25px;
-    height: 80%;
+    border-radius: 10%;
+    height: 65%;
     margin: 0 auto;
     width: 80%;
+}
+
+/* Services Section Styles */
+
+#services {
+    display: flex;
+    flex-direction: column;
+    line-height: 2em;
+    width: 100%;
+}
+
+#services h3 {
+    font-size: 1.25em;
+    margin: 0.75em 0;
+}
+
+.service-card {
+    border: 1px solid;
+    border-radius: 25%;
+    margin: .25em .5em;
+}
+
+.service-card h4 {
+    margin: .5em .25em;
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+.service-card p {
+    margin: .5em .25em;
 }
