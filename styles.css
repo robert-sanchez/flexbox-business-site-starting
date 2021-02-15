@@ -23,6 +23,7 @@ nav {
 
 nav a {
     color: black;
+    font-size: 1.5em;
     text-decoration: none;
 }
 
@@ -100,11 +101,11 @@ nav a {
     background-color: black;
     color: white;
     font-size: 1.25em;
-    padding: .5em 0;
+    padding: 1em 0;
 }
 
 .service-card {
-    border: 1px solid;
+    background-color: lightgray;
     border-radius: 10%;
     margin: .5em auto;
     width: 60%;
@@ -135,5 +136,15 @@ nav a {
 
     .crew-container {
         display: flex;
+    }
+
+    .service-container {
+        display: flex;
+    }
+
+    .service-card {
+        margin: 1em auto;
+        padding: 1em;
+        width: 40%;
     }
 }
